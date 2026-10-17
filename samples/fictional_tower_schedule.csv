@@ -1,0 +1,10 @@
+activity_id,activity_name,start,finish,duration_days,total_float_days,predecessors,successors
+A100,Notice to proceed,2026-11-01,2026-11-01,0,0,,A110
+A110,Site setup,2026-11-02,2026-11-12,10,2,A100,A120
+A120,Excavation,2026-11-13,2026-12-01,18,-3,A110,A130
+A130,Foundations,2026-12-02,2027-01-15,44,6,A120,A140
+A140,Podium structure,2027-01-16,2027-03-01,44,48,A130,A150
+A150,Tower superstructure,2027-03-02,2027-09-01,183,4,A140,A999
+A160,MEP first fix,2027-04-01,2027-08-01,122,8,,A170
+A170,Finishes,2027-08-02,2027-10-30,89,5,A160,
+A170,Duplicate finish task,2027-11-01,2027-10-01,10,5,A170,
